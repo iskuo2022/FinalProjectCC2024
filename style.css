@@ -1,7 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #E2F5FA;
 }
 canvas {
   display: block;
+  margin: auto;
 }
+
+.heading {
+  padding: 10px;
+  font-size: 100%;
+  text-align: CENTER;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border: 2px solid #595DD6;
+  border-radius: 100px;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "DM Serif Text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2177A3;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "DM Serif Text", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #2177A3;
+}
+
+#sketch-holder{
+  padding: auto;
+  margin-bottom:20px;
+}
+
+#upload-button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#button-holder {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#current-color{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+}
+
+button {
+  font-size: 15px;
+  font-family: "DM Serif Text", sans-serif;
+  border-width: 1px;
+  border: solid "#F2FFEC";
+  border-radius: 5px;
+  padding: 8px;
+  color: #000000;
+  background: #FFFFFF;
+}
+
+
+button:hover {
+  background: #D4D9EE;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  min-width: 400px;
+  max-width: 600px;
+  min-height: 20px;
+  margin: auto;
+  text-align: center;
+  border: 2px solid #595DD6;
+  border-radius: 5px;
+  background-color: #BEE3EC;
+  padding: 10px;
+}
+
+#stroke-holder {
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+

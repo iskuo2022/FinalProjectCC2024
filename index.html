@@ -3,15 +3,23 @@
   <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <meta charset="utf-8" />
-
   </head>
   <body>
     <main>
+      <div class="heading">
+        <h1>Randomized Drawing Machine!</h1>
+        <h2>Click on "choose file" below and select an image file (png or jpg), then click "get palette" and click a color and then the pen tool to start drawing! The current color selected will show in the white box below!</h2>
+      </div>
+      <div id="upload-button"></div>
       <div id="sketch-holder"></div>
-      <div id="button-holder"></div>
-      <div id="controls"></div>
+      <div id="controls-main">
+        <div id="current-color" class="c"></div>
+        <p>  </p>
+        <div id="button-holder" class="c"></div>
+        <div id="stroke-holder" class="c"></div>
+      </div>
     </main>
     <script src="sketch.js"></script>
   </body>
